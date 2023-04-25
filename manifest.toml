@@ -56,7 +56,5 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
-    [resources.ports]
-
     [resources.apt]
-    packages = "php8.0-imap, php8.0-xml, php8.0-zip, php8.0-json, php8.0-gd, php8.0-curl"
+    packages = "libcompress-raw-zlib-perl, libpcre2-posix2, libpcre2-dev, php8.0-imap, php8.0-xml, php8.0-zip, php8.0-json, php8.0-gd, php8.0-curl"
