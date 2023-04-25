@@ -61,6 +61,3 @@ ram.runtime = "50M"
 
     [resources.apt]
     packages = "php8.0-xml, php8.0-zip, php8.0-json"
-
-    [resources.database]
-    #type = "mysql"
