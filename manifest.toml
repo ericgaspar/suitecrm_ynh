@@ -10,12 +10,11 @@ version = "8.2~ynh1"
 maintainers = [""]
 
 [upstream]
-license = "AGPL-3.0"
+license = "GPL-3.0"
 website = "https://suitecrm.com/"
 demo = "https://suitecrm.com/demo/"
 admindoc = "https://docs.suitecrm.com/admin/installation-guide/"
-userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+code = "https://github.com/salesagility/SuiteCRM"
 
 [integration]
 yunohost = ">= 11.1.18"
@@ -60,4 +59,4 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "php8.0-xml, php8.0-zip, php8.0-json"
+    packages = "php8.0-imap, php8.0-xml, php8.0-zip, php8.0-json, php8.0-gd, php8.0-curl"
